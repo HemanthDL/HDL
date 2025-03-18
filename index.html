@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 style="color: green; margin-bottom: 25px;">HDL Code Editor</h2>    
+    
+    <div class="container">
+        <div class="editor-container">
+            <h2>Code Editor</h2>
+            <textarea id="code-editor" placeholder="Write your code here..."></textarea>
+            <div class="button-container">
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+
+
+        <div class="output-container">
+            <h2>Output</h2>
+            <pre id="output">Your output will appear here...</pre>
+        </div>
+    </div>
+
+    <script src="compiler.js"></script>
+</body>
+</html>
